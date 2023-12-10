@@ -17,7 +17,7 @@ func main() {
 		Version:              cmd.Version,
 		Compiled:             time.Now().UTC(),
 		Action:               cmd.GetVersion,
-		Commands:             cmd.Commands,
+		Commands:             cmd.GetCommands(),
 	}
 
 	if err := app.Run(os.Args); err != nil {
