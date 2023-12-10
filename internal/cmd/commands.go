@@ -1,11 +1,11 @@
 package cmd
 
 import (
-	"github.com/pmoieni/wall-e/internal/filter"
-	"github.com/pmoieni/wall-e/internal/scheduler"
-	"github.com/pmoieni/wall-e/internal/sources"
-	"github.com/pmoieni/wall-e/internal/store"
-	"github.com/pmoieni/wall-e/internal/wallpaper"
+	"github.com/pmoieni/wall-e/internal/cmd/internal/filter"
+	"github.com/pmoieni/wall-e/internal/cmd/internal/scheduler"
+	"github.com/pmoieni/wall-e/internal/cmd/internal/sources"
+	"github.com/pmoieni/wall-e/internal/cmd/internal/store"
+	"github.com/pmoieni/wall-e/internal/cmd/internal/wallpaper"
 	"github.com/urfave/cli/v2"
 )
 
